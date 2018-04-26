@@ -8,10 +8,10 @@
 ## Setup
 
 ```sh
-# Install dependencies
+## Install dependencies
 npm install
 
-# Test
+## Test
 npm test
 ```
 
