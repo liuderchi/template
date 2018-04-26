@@ -1,32 +1,23 @@
 {
   "name": "{{ name }}",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "{{{ description }}}",
   "author": "{{{ author }}}",
   "license": "ISC",
   "repository": "https://github.com/{{ owner }}/{{ repo }}.git",
   "scripts": {
     "dev": "nodemon --exec \"npm start\"",
-    "start": "probot run ./index.js",
-    "lint": "standard --fix",
-    "test": "jest && standard",
+    "start": "node ./index.js",
+    "lint": "echo 'linting'",
+    "test": "jest",
     "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
-  "dependencies": {
-    "probot": "^6.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "jest": "^22.4.3",
-    "nodemon": "^1.17.2",
-    "smee-client": "^1.0.1",
-    "standard": "^10.0.3"
+    "nodemon": "^1.17.2"
   },
   "engines": {
     "node": ">= 8.3.0"
-  },
-  "standard": {
-    "env": [
-      "jest"
-    ]
   }
 }
