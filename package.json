@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "{{{ description }}}",
   "author": "{{{ author }}}",
-  "license": "ISC",
+  "license": "MIT",
   "repository": "https://github.com/{{ owner }}/{{ repo }}.git",
   "scripts": {
     "dev": "nodemon --exec \"npm start\"",
@@ -11,7 +11,7 @@
     "prettier": "prettier --write src/**/*.js test/**/*.js",
     "lint": "eslint src",
     "test": "jest",
-    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+    "test:watch": "jest --watch --notifyMode=change --coverage"
   },
   "dependencies": {},
   "devDependencies": {
