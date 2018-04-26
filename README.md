@@ -1,6 +1,6 @@
 # {{ name }}
 
-> a GitHub App built with [probot](https://github.com/probot/probot) that {{ description }}
+> a npm packackge that {{ description }}.
 
 ## Setup
 
@@ -8,6 +8,6 @@
 # Install dependencies
 npm install
 
-# Run the bot
-npm start
+# Test
+npm test
 ```
